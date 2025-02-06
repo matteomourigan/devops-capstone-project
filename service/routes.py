@@ -9,12 +9,6 @@ from service.models import Account
 from service.common import status  # HTTP Status Codes
 from . import app  # Import Flask application
 
-## Added
-import os
-BASE_URL = os.getenv("BASE_URL", "/api/v1")  # Valor por defecto si no está definida
-
-
-
 ############################################################
 # Health Endpoint
 ############################################################
